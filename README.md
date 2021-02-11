@@ -1,4 +1,6 @@
 # cph-1st-w37-opgaver
 
 
-Hello world! 
+Christian Cleve Sachse
+
+Mail: cph-cs450@cphbusiness.dk 
