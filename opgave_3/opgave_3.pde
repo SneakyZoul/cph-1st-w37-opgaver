@@ -1,6 +1,4 @@
 
-
-
 color red = color(255, 0, 0);
 color green = color(0, 255, 0);
 color yellow = color( 255, 255, 0);
@@ -29,7 +27,7 @@ void draw()
 
 
 
-  if ( timeCount >= 0 && timeCount <= 50) {
+  if ( timeCount >= 0 && timeCount <= 100) {
     fill(red);
 
     timeCount = timeCount + 1;
@@ -53,7 +51,7 @@ void draw()
     fill(gray);
 }  
     ellipse(150, 220, 90, 90);
-  if (timeCount >= 100 && timeCount <= 150 ) 
+  if (timeCount >= 100 && timeCount <= 200 ) 
   {
     fill(green); 
     timeCount = timeCount +1; 
@@ -61,7 +59,7 @@ void draw()
   fill(gray);
   }
   ellipse(150, 320, 90, 90);
-  if (timeCount == 150 )
+  if (timeCount == 200 )
   {
     timeCount = 0; 
   }
